@@ -1,0 +1,22 @@
+{
+  "name": "sterm",
+  "version": "1.0.0",
+  "description": "Watch and run postgres SQL files when update, using your own editor",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+      "postgres",
+      "terminal",
+      "sql editor",
+      "watch"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^1.5.2",
+    "winston": "^2.2.0"
+  },
+  "bin": "bin/sterm.js"
+}
